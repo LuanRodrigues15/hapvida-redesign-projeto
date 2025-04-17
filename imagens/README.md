@@ -1,1 +1,1 @@
-### 📸 Capturas de Tela do site
+### 📸 Algumas capturas de tela do site
