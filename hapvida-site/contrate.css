@@ -1,0 +1,155 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /*HEADER*/
+  
+  .container {
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header {
+    padding-top: 5px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #e0e0e0;
+    height: 110px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* nav */
+  nav {
+    margin-top: 5px;
+  }
+  
+  nav ul {
+    margin-right: 20px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  
+  /* nav */
+  a.navlink:hover {
+    color: #0468b3;
+  }
+  
+  div.contrate {
+    background: linear-gradient(to right, #045899 50%, #0468b3 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 213px;
+    height: 53px;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+  }
+  
+  div.contrate:hover {
+    background-position: left bottom;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+  }
+  header nav ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a.linkcontrate {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  nav ul li.contrate {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+/* a */
+  section.texto {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  section h1 {
+    color: #0054b7;
+    font-size: 24px;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    background-color: #0054b7;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label{
+  font-size: 30px;
+}
+
+input{
+  font-size: 15px;
+}
+
+  /* footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-top: 30px;
+  background-color: #063a77;
+  padding-top: 10px;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+
+footer p.nomes{
+  margin-top: 10px;
+}
+
+footer p.app{
+  font-size: 25px;
+}
+
+footer span{
+  color: #eb740c;
+}
+
+footer span a{
+  color: #eb740c;
+  font-size: 25px;
+  
+}
+
+
